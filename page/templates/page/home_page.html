@@ -1,0 +1,90 @@
+{% extends 'core/base.html'%}
+    
+{% block container-fluid %}        
+
+{% include 'page/components/home_carousel.html' %}
+
+
+
+                                                    <!--    Hero content    -->
+<div class="container-fluid mb-5">
+<div class="row bg-light p-4">
+<div class="col-sm-8 offset-sm-2">
+<div class="h-100 p-5 bg-body-tertiary border rounded-3">
+  <h2 class="text-center display-2">Django</h2>
+  <p class="text-center">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+</div>
+</div>
+</div>
+                                                  <!--    Hero content end     -->
+                                                    
+                                                  
+
+                                                  <!--    About Us      -->
+<div class="row bg-dark text-light">
+<div class="col-sm-6 ms-0 ps-0">
+<img src="https://picsum.photos/id/43/600/250" alt="" class="w-100">
+</div>
+<div class="col-sm-6 text-center">
+<h1 class="display-1">Hakkımızda </h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, exercitationem.</p>
+<p>A iste corporis officia, quod ipsum mollitia quaerat voluptatibus repellendus.</p>
+<p>Quaerat facere nam, quae quia reiciendis ullam tenetur nostrum nesciunt!</p>
+</div>
+</div>
+                                                  <!--     About Us     -->
+
+</div>                                      
+{% endblock container-fluid %}                                              
+
+                                                            
+                                                          
+
+
+
+
+{% block container %}
+<!-- products  -->
+<div class="row">
+  <div class="col-sm-12">
+    <h2>urunlerimiz</h2>
+    <hr>
+  </div>
+  <div class="col-sm-4 mb2">
+    <div class="card" >
+      <img src="https://picsum.photos/id/143/400/250" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Urun 1</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="/urunler/" class="btn btn-primary">İncele</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 mb2">
+    <div class="card" >
+      <img src="https://picsum.photos/id/144/400/250" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Urun 1</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="/urunler/" class="btn btn-primary">İncele</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 mb2">
+    <div class="card" >
+      <img src="https://picsum.photos/id/145/400/250" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Urun 1</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="/urunler/" class="btn btn-primary">İncele</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+                                            <!-- products end -->
+
+                                                 {% endblock %}
+
