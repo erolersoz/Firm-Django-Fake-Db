@@ -1,4 +1,4 @@
-This project is a medium clone project and includes options such as adding blog, tag, category and user.
+This project was done without using a database, it was one of my first projects, the database was used as python files.
 
 ## Usage
 
